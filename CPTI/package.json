@@ -18,10 +18,20 @@
   "contributes": {
     "commands": [
       {
-        "command": "CPTI.helloWorld",
-        "title": "Hello World"
+        "command": "CPTI.show_path",
+        "title": "Show your template path"
       }
-    ]
+    ],
+    "configuration": {
+      "title": "CP Template Inserter",
+      "properties": {
+        "cpti.path_to_template": {
+          "type": "string",
+          "default": null,
+          "description": "Provide an absolute path to your template folder."
+        }
+      }
+    }
   },
   "scripts": {
     "vscode:prepublish": "npm run compile",
