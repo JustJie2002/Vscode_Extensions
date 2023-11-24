@@ -2,9 +2,7 @@
   "name": "CPTI",
   "displayName": "Competitive Programming Template Inserter",
   "description": "Insert your CP template without ever having to open it",
-  "author": {
-    "name": "Just Jie"
-  },
+  "publisher": "Just Jie",
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.84.0"
