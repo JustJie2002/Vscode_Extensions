@@ -16,8 +16,8 @@
   "contributes": {
     "commands": [
       {
-        "command": "CPTI.show_path",
-        "title": "Show your template path"
+        "command": "CPTI.copy_template",
+        "title": "CPTI : Copy Template"
       }
     ],
     "configuration": {
